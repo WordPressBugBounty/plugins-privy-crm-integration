@@ -2,9 +2,9 @@
 Contributors: shivammani
 Tags: privyr,wpcf7,wpforms,elementor,gravity,form,crm,divi,houzez,forminator,ninja
 Requires at least: 5.0
-Tested up to: 6.2.2
+Tested up to: 6.7.2
 Requires PHP: 5.6
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -88,7 +88,7 @@ It also offers auto-personalised messages and content, trackable PDF files and p
 All of this can be done easily from your phone via our mobile app.
 
 View a video of how Privyr works here:
-[https://www.youtube.com/watch?v=UZPknxcpfPg](https://www.youtube.com/watch?v=UZPknxcpfPg)
+[https://www.youtube.com/watch?v=WcDzudQLvoY](https://www.youtube.com/watch?v=WcDzudQLvoY)
 
 
 <br/>
@@ -142,6 +142,8 @@ You always have full control over your data and can choose to delete it at any t
 
 
 == Changelog ==
+**v1.0.2**
+- Tested up to WordPress 6.7.2 to ensure compatibility
 
 **v1.0.1**
 - Minor bug fix
