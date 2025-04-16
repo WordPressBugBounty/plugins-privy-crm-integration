@@ -197,7 +197,8 @@ function render_admin_page()
       "availableIntegrations" => Privyr_Options::get_available_integrations(),
       "privyrToken" => isset($privyr_config['privyr_token']) ? $privyr_config['privyr_token'] : '',
       "cfReference" => isset($privyr_config['cf_reference']) ? $privyr_config['cf_reference'] : '',
-      "Status" => Privyr_Integration_Status::to_array()
+      "Status" => Privyr_Integration_Status::to_array(),
+      "nonce" => wp_create_nonce(Privyr_Constants::WP_SAVE_HOOK_NAME),
     );
     ?>
 
@@ -311,7 +312,8 @@ function render_admin_page()
           body: new URLSearchParams({
             ...payload,
             action: this.formActionName,
-            cf_reference: this.cfReference
+            cf_reference: this.cfReference,
+            nonce: this.nonce
           })
         })
       },

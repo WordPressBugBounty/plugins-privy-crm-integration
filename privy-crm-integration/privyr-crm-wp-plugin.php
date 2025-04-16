@@ -16,7 +16,7 @@
  * Plugin Name:       Privyr CRM - Instant Lead Alerts for Contact Forms
  * Plugin URI:        https://wordpress.org/plugins/privyr-crm
  * Description:       Get instant new lead alerts on your phone and via email, combined with easy lead management and one-touch calls, WhatsApp, SMS, iMessage, and emails.
- * Version:           1.0.2
+ * Version:           1.0.3
  * Author:            Privyr
  * Author URI:        https://www.privyr.com/
  * License:           GPL-2.0+
@@ -35,7 +35,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 0.1.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'PRIVYR_CRM_VERSION', '1.0.2' );
+define( 'PRIVYR_CRM_VERSION', '1.0.3' );
 define( 'PRIVYR_CRM_PLUGIN_ID', 'privyr-crm' );
 
 global $wpdb;

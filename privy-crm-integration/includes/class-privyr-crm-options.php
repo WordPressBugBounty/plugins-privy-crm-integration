@@ -86,6 +86,13 @@ class Privyr_Options
     public function save_options_handler()
     {
         $submission = $_POST;
+
+        // Prevent unauthorized update
+        $has_capability = current_user_can('manage_options');
+        $is_nonce_valid = wp_verify_nonce($submission['nonce'], Privyr_Constants::WP_SAVE_HOOK_NAME);
+
+        if (!$has_capability || !$is_nonce_valid) exit;
+
         $existing_token = self::get_single_value('privyr_token');
         if ($existing_token) return self::set_values($submission);
         

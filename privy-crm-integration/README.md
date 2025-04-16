@@ -4,7 +4,7 @@ Tags: privyr,wpcf7,wpforms,elementor,gravity,form,crm,divi,houzez,forminator,nin
 Requires at least: 5.0
 Tested up to: 6.7.2
 Requires PHP: 5.6
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -140,8 +140,15 @@ We operate our business fully on monthly subscriptions, with no hidden costs or 
 
 You always have full control over your data and can choose to delete it at any time.
 
+**=== How can I report security bugs? ===**
+
+You can report security bugs through the Patchstack Vulnerability Disclosure Program. The Patchstack team help validate, triage and handle any security vulnerabilities. [Report a security vulnerability.](https://patchstack.com/database/vdp/privy-crm-integration)
+
 
 == Changelog ==
+**v1.0.3**
+- Security Fix: broken access control issue (CVE-2025-32224)
+
 **v1.0.2**
 - Tested up to WordPress 6.7.2 to ensure compatibility
 
